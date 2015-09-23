@@ -1,0 +1,48 @@
+.multiSelectionWPag {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	 user-select: none;
+	 position:relative;
+}
+						
+.multiSelectionWPag_div {
+	display: none;
+	border: 1px #dadada solid;
+	text-align:center;
+	position:absolute;
+	width: 100%;
+	background-color: #ffffff;
+	z-index: 1000000;
+}
+					    
+.multiSelectionWPag_list {
+	text-align:left;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+					    
+.multiSelectionWPag label {
+	display: block;
+}
+
+.multiSelectionWPag label:hover {
+	background-color: #1e90ff;
+}
+					    
+.multiSelectionWPag label input {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+					    
+.multiSelectionWPag .span_selectall {
+	width:100%; 
+	border-left-style: none; 
+	border-rigth-style: none;
+}
+					    
+.multiSelectionWPag .span_selectall input{
+	margin-right: 10px;
+}
