@@ -1,3 +1,5 @@
+//https://github.com/GHFernando/multiSelectionWPag
+
 ;(function ( $, window, document, undefined ) {
 	
 	var pluginName = 'multiSelectionWPag';
